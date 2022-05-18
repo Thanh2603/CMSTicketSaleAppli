@@ -1,9 +1,9 @@
 import React from 'react'
-
-const Sidebar = () => {
+import "../App.css";
+function Sidebar() {
   return (
-    <div>
-      Sidebar
+    <div className='Sidebar'>
+      asasasasasas
     </div>
   )
 }
