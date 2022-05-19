@@ -9,8 +9,9 @@ function Sidebar() {
         return <li 
         key={key} 
         className="row"
-        onClick={()=>{window.location.pathname = val.link}}> <div> {val.icon} </div>{" "}
-        <div>
+        id={window.location.pathname == val.link ? "active" : ""}
+        onClick={()=>{window.location.pathname = val.link}}> <div id="icon"> {val.icon} </div>{" "}
+        <div id="title">
           {val.title}
         </div>
          </li>;
