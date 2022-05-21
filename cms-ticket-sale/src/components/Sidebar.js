@@ -4,6 +4,9 @@ import {SidebarData} from './SidebarData'
 function Sidebar() {
   return (
     <div className='Sidebar'>
+      <div className='image'>
+        <image></image>
+      </div>
       <ul className='SidebarList'>
       {SidebarData.map((val, key)=>{
         return <li 
@@ -17,6 +20,10 @@ function Sidebar() {
          </li>;
       })}
       </ul>
+      <div className='searchfilter'>
+           <input type="text" value ="Search"/>
+           
+        </div>
     </div>
   )
 }

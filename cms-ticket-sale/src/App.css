@@ -35,6 +35,7 @@ body{
   color: #1E0D03;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
 }
 .SidebarList .row:hover{
   cursor: pointer;
@@ -66,4 +67,38 @@ flex-grow: 0;
 }
 .SidebarList #active{
   background-color: orange;
+}
+.searchfilter{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 16px;
+gap: 16px;
+
+position: absolute;
+width: 437px;
+height: 48px;
+left: 321px;
+top: 17px;
+
+background: #EDE6E6;
+border-radius: 12px;
+}
+.searchfilter input{
+  width: 361px;
+  height: 38px;
+
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #1E0D03;
+opacity: 0.3;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
 }
