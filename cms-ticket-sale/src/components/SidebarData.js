@@ -3,7 +3,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
 import LocalActivityIcon from '@mui/icons-material/LocalActivity';
 import SettingsIcon from '@mui/icons-material/Settings';
-import SearchIcon from '@mui/icons-material/Search';
+
 export const SidebarData =[
     {
         title: "Trang Chủ",
@@ -25,7 +25,4 @@ export const SidebarData =[
         icon: <SettingsIcon />,
         link: "/setting"
     },
-    {
-        
-    }
 ] 

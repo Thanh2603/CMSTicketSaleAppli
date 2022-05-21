@@ -1,7 +1,10 @@
 .App {
-  width: 100vw;
-  height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  
+  background: #F9F6F4;
+  border-radius: 24px;
 }
 body{
   margin: 0;
@@ -10,7 +13,7 @@ body{
 .Sidebar {
   height: 100%;
   width: 250px;
-  background-color: #E5E5E5;
+  background-color: #F9F6F4;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -68,7 +71,7 @@ flex-grow: 0;
 .SidebarList #active{
   background-color: orange;
 }
-.searchfilter{
+.search{
   display: flex;
 flex-direction: row;
 align-items: center;
@@ -84,10 +87,9 @@ top: 17px;
 background: #EDE6E6;
 border-radius: 12px;
 }
-.searchfilter input{
+.search input{
   width: 361px;
-  height: 38px;
-
+  height: 48px;
 font-family: 'Montserrat';
 font-style: italic;
 font-weight: 400;
@@ -101,4 +103,94 @@ flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 1;
+border: none;
+border-radius:12px ;
+background-color: #EDE6E6;
+}
+.search-btn{
+  height: 39px;
+left: 0%;
+right: 14.29%;
+top: 0%;
+bottom: 14.28%;
+border: 0;
+background-color: #EDE6E6;
+}
+.notimail{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 144px;
+height: 48px;
+left: 1600px;
+top: 17px;
+}
+.notimail .mail{
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 0;
+}
+.notimail .bell{
+  width: 24px;
+height: 24px;
+opacity: 0.8;
+flex: none;
+order: 1;
+flex-grow: 0;
+border: 0;
+}
+.notimail .accnotimail{
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  border: 0;
+}
+.p1{
+  position: absolute;
+width: 70px;
+height: 22px;
+left: 33px;
+top: 900px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+opacity: 0.5;
+}
+.p2{
+  position: absolute;
+  left: 40%;
+  right: 10%;
+  top: 900px;
+  bottom: 8.33%;  
+  opacity: 0.5;
+}
+.p3{
+  position: absolute;
+  width: 132px;
+  height: 22px;
+  left: 128px;
+  top: 900px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
 }
