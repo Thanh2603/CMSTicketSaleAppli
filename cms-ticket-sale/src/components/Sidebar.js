@@ -3,7 +3,6 @@ import React from 'react'
 import "../App.css";
 import {SidebarData} from './SidebarData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 function Sidebar() {
   return (
     <div className='Sidebar'>
