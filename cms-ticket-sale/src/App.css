@@ -156,12 +156,12 @@ border: 0;
   flex-grow: 0;
   border: 0;
 }
-.p1{
-  position: absolute;
-width: 70px;
+.alta{
+position: absolute;
+width: 132px;
 height: 22px;
-left: 33px;
-top: 900px;
+left: 50px;
+top: 1027px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -169,28 +169,6 @@ font-size: 14px;
 line-height: 22px;
 display: flex;
 align-items: center;
+color: #1E0D03;
 opacity: 0.5;
-}
-.p2{
-  position: absolute;
-  left: 40%;
-  right: 10%;
-  top: 900px;
-  bottom: 8.33%;  
-  opacity: 0.5;
-}
-.p3{
-  position: absolute;
-  width: 132px;
-  height: 22px;
-  left: 128px;
-  top: 900px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  opacity: 0.5;
 }

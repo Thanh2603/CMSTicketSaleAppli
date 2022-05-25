@@ -43,10 +43,8 @@ function Sidebar() {
       <FontAwesomeIcon icon={faUserTie}/>
         </button>
       </div>
-      <div >
-        <p className='p1'>Copyright</p>
-        <p className='p2'>@</p>
-        <p className='p3'>2020 Alta Software</p>
+      <div className='alta'>
+        <span>Copyright @ 2020 Alta Software</span>
       </div>
     </div>
   )
